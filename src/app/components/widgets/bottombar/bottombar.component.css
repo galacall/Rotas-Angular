@@ -1,0 +1,12 @@
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #004b;
+    padding: 5px 20px;
+}
+
+.footer-p {
+    color: #ffffff;
+}

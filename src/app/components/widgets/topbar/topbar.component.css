@@ -1,0 +1,34 @@
+/* Estilo para a barra de navegação */
+.navbar {
+    position: fixed; /* Fixa a barra de navegação no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #004b9b; /* Cor de fundo da barra de navegação */
+    border-bottom: 2px solid hwb(211 0% 64%); 
+    padding: 10px 20px; 
+}
+  
+.navbar-nav {
+    list-style-type: none; /* Sem bolinhas */
+    padding: 0;
+    display: flex; /* Lista na horizontal */
+}
+  
+.nav-item {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
+.navbar-titulo {
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+  
